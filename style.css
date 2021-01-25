@@ -1,0 +1,98 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pmg1, .pmg2, .pmg3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.pmg1{
+    background-image: url("./img/hawaii.jpg");
+    min-height: 100%;
+   
+}
+
+.pmg2{
+    background-image: url("./img/hawaii2.jpg");
+    min-height: 400px;
+   
+}
+
+.pmg3{
+    background-image: url("./img/hawaii3.jpg");
+    min-height: 400px;
+   
+}
+
+.section-dark, .section-grey, .section-light {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #D6E4F0;
+    color: #666;
+    opacity: 0.9;
+    
+}
+
+.section-grey{
+    background-color: #80b7b9;
+    color: #fff;
+    opacity: 0.9;
+}
+.section-dark{
+    background-color: #385e77;
+    color: #ddd;
+    opacity: 0.9;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.ptext .border{
+    background-color: #777;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border.trans{
+    
+    background-color: transparent;
+
+
+}
+.border-gradient{
+    padding: 15px;
+border-radius: 1000px;
+background:linear-gradient(to right,#5f8b96,#30698f,#1f6b9e,#2491c4)
+
+}
+
+
+@media(max-width:568px){
+.pmg1, .pmg2, .pmg3{
+    background-attachment: scroll;
+}
+}
